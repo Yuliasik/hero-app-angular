@@ -1,48 +1,40 @@
-/* Application-wide Styles */
-
-
-/* h1 {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
-}
-
-h2,
-h3 {
-    color: #444;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-
-body {
-    margin: 2em;
-}
-
-body,
-input[type="text"],
-button {
-    color: #333;
-    font-family: Cambria, Georgia, serif;
-}
-
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
-
-/* AppComponent's private CSS styles */
-
-h1 {
+.title {
     margin-bottom: 0;
+    text-shadow: 0.8px 0.7px 0.5px #626d73;
+    text-align: center;
+}
+
+.main_blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.right_block {
+    /* background: chartreuse; */
+    width: calc(100% - 290px);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    border-right: 4px solid #626d73;
+    padding-right: 10px;
+}
+
+nav div {
+    padding-right: 15px;
 }
 
 nav a {
+    width: 70px;
+    text-align: center;
     padding: 1rem;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
     background-color: #e8e8e8;
+    box-shadow: -1px 2px 0.3px #626d73;
+    border: 2px solid #cccccc;
     color: #3d3d3d;
     border-radius: 4px;
 }
@@ -54,4 +46,11 @@ nav a:hover {
 
 nav a.active {
     background-color: black;
+}
+
+.message {
+    border-top: 4px solid #626d73;
+    border-bottom: 4px solid #626d73;
+    max-height: 350px;
+    overflow-y: auto;
 }
