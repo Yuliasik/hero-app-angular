@@ -10,7 +10,6 @@
 }
 
 .right_block {
-    /* background: chartreuse; */
     width: calc(100% - 290px);
 }
 
@@ -53,4 +52,5 @@ nav a.active {
     border-bottom: 4px solid #626d73;
     max-height: 350px;
     overflow-y: auto;
+    padding-bottom: 20px;
 }
