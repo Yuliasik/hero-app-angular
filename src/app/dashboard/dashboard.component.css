@@ -8,13 +8,30 @@ h2 {
     padding: 0;
     margin: auto;
     max-width: 1000px;
-    /* flexbox */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
     align-items: flex-start;
+}
+
+.block_top_heroes {
+    width: 74%;
+    background: rgba(28, 41, 30, 0.17);
+    padding: 5px 20px 5px 20px;
+    margin: 20px;
+}
+
+.right_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search {
+    border-left: 4px solid #626d73;
+    padding-left: 25px;
 }
 
 a {
@@ -30,7 +47,6 @@ a {
     min-width: 70px;
     margin: .5rem auto;
     box-sizing: border-box;
-    /* flexbox */
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
